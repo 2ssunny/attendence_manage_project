@@ -1,0 +1,25 @@
+.home {
+  margin-top: 0;
+  height: 92vh;
+  background-color: #42a5f5;
+}
+
+.home_title {
+  font-family: NanumBarunGothic, sans-serif;
+  margin-top: 0;
+  font-size: 4rem;
+  font-weight: 700;
+  color: black;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.home_title2 {
+  margin-top: 0;
+  font-family: NanumBarunGothic, sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: black;
+  text-align: center;
+  padding-top: 2rem;
+}
