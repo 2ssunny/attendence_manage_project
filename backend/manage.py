@@ -6,9 +6,7 @@ import sys
 
 def main():
     """Run administrative tasks."""
-    os.environ.setdefault(
-        "DJANGO_SETTINGS_MODULE", "attendence_manage_backend.settings"
-    )
+    os.environ.setdefault("DJANGO_SETTINGS_MODULE", "att_manage.settings")
     try:
         from django.core.management import execute_from_command_line
     except ImportError as exc:

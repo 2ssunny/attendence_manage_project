@@ -1,0 +1,36 @@
+.sectionTitle {
+  font-size: 62px;
+  font-weight: bold;
+  padding: 30px;
+}
+
+.inputs {
+  width: 92%;
+  padding: 8px;
+  font-size: 22px;
+}
+
+.buttonDiv {
+  width: 92%;
+  text-align: right;
+}
+
+.goodButton {
+  margin: 10px;
+  width: 90px;
+  font-size: 20px;
+  height: 40px;
+  border-radius: 4px;
+  color: white;
+  background-color: rebeccapurple;
+}
+
+.badButton {
+  margin-top: 10px;
+  width: 90px;
+  font-size: 20px;
+  height: 40px;
+  border-radius: 4px;
+  color: white;
+  background-color: red;
+}

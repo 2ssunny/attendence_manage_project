@@ -9,6 +9,7 @@ import Resigter from "./components/Register.js";
 import Check from "./components/Check.js";
 import SignIn from "./components/account/SignIn";
 import Signup from "./components/account/SignUp";
+import Test from "./components/test";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Nav />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/test" element={<Test />} />
           <Route path="/register" element={<Resigter />} />
           <Route path="/check" element={<Check />} />
           <Route path="/signin" element={<SignIn />} />

@@ -53,6 +53,7 @@ function ColorSchemesExample() {
             <Nav.Link href="Register">등록하기</Nav.Link>
             <Nav.Link href="Check">조회하기</Nav.Link>
             <Nav.Link href="Signin">로그인/회원가입</Nav.Link>
+            <Nav.Link href="Test">test</Nav.Link>
           </Nav>
         </Container>
       </Navbar>

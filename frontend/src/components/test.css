@@ -1,0 +1,35 @@
+.parentDiv {
+  padding: 60px;
+}
+
+.sectionTitle {
+  font-size: 62px;
+  font-weight: bold;
+  padding: 30px;
+}
+
+.buttonDiv {
+  width: 92%;
+  text-align: right;
+}
+
+.goodButton {
+  margin: 10px;
+  width: 90px;
+  font-size: 20px;
+  height: 40px;
+  border-radius: 4px;
+  color: white;
+  background-color: rebeccapurple;
+}
+
+.modal {
+  position: fixed;
+  height: 400px;
+  min-width: 600px;
+  top: 20%;
+  left: 30%;
+  border: 2px solid rebeccapurple;
+  border-radius: 2px;
+  background: white;
+}
