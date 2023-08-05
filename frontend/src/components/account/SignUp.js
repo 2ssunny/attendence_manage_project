@@ -23,9 +23,11 @@ class Register extends Component {
   handleSubmit(event) {
     event.preventDefault();
     axios
-      .post("http://localhost:8000/users/register/", {
-        Username: this.state.username,
-        Password: this.state.password,
+      .post("http://localhost:8000/users/register", {
+        username: this.state.username,
+        email: this.state.email,
+        password: this.state.password,
+        password2: this.state.password2,
       })
       .then((response) => {
         console.log(response.data);
